@@ -19,3 +19,6 @@ This section of the video has a nice illustration of how action creators can fir
 ![](2015-12-18_16-28-44.jpg)
 
 This way the UI can respond to the fact that a web request is in progress (perhaps displaying a spinner).  Then when the "end" action fires, the UI can display new data.  The key idea here is that the UI only needed to dispatch one action (by an action creator) - and that action creator handled the "start" and the "end" action.
+
+
+See the Redux docs for the full explanation about [async actions](http://rackt.org/redux/docs/advanced/AsyncActions.html).
