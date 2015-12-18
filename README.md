@@ -1,21 +1,19 @@
-My Awesome Book
+React Curriculum
 =======
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
-
-Words are pretty neat, especially when they form complete sentences.
+This "curriculum" is a curated list of information and resources to help my team learn React.js and Redux.  
 
 
-## this is some heading
+
+# Redux
+Redux is the Flux implementation that we are using to tie our components together.
 
 
-### This is another heading
+## Actions
 
 
-# This is a certain heading
+### Asynchronous actions (e.g., web requests)
+Actions which should not execute synchronously require a different approach.  This YouTube [video](https://youtu.be/764wvf8KuTw?t=1121) explains the concept.
 
-#### Is this a heading?
+![](2015-12-18_16-07-28.jpg)
 
-##### Is this a heading?
-
-This is a sentence.
