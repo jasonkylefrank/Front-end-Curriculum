@@ -15,11 +15,7 @@ Actions which should not execute synchronously require a slightly different appr
 ![](2015-12-18_16-07-28.jpg)
 
 
-
-
-
-
-This section of the video has a nice illustration of how action creators can fire a "<span class="test">start</span>" and an "<span class="test">end</span>" action.
+This section of the video has a nice illustration of how action creators can fire a "start" and an "end" action.
 
 ![](2015-12-18_16-28-44.jpg)
 
