@@ -20,8 +20,8 @@ The best resources I've found so far are:
 
      1. How **memory usage** can be efficient (via “structural sharing”)
      2. How **change-detection** becomes:
-        (a) very *easy* to check for (just comparing the reference of the “before” and “after”), and,
-        (b) extremely *fast* (O(1)). 
+        1. very *easy* to check for (just comparing the reference of the “before” and “after”), and,
+        2. extremely *fast* (O(1)). 
 
 
 
