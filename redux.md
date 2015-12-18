@@ -17,7 +17,12 @@ The best resources I've found so far are:
 4. The [official Redux documentation](http://rackt.org/redux/index.html) is excellent. If nothing else, you should check out the [Basics section](http://rackt.org/redux/docs/basics/index.html), which is a good written counterpart to the 30-video series mentioned above (it creates a Todo app).  
 
 5. [Immutable Data and React](https://www.youtube.com/watch?v=I7IdS-PbEgI) from React.js Conf 2015.  As you'll learn in the other resources for Redux, immutability is a key component to Redux.  When we first presented Redux to our architecture team, they had questions about the **memory usage** and about **how the change-detection works**.  These are 2 key aspects of using immutable data.  This video shows:
-a. 
+
+     1. How **memory usage** can be efficient (via “structural sharing”)
+     2. How **change-detection** becomes:
+        (a) very *easy* to check for (just comparing the reference of the “before” and “after”), and,
+        (b) extremely *fast* (O(1)). 
+
 
 
 
