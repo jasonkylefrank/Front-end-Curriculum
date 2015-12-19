@@ -1,5 +1,5 @@
 {
-    //"plugins": ["styles-sass"], // I could not get this to work
+    //"plugins": ["styles-sass"], 
     //"styles": {
     //    "website": "./styles/website.sass"
     //}
