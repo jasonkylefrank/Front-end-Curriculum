@@ -5,6 +5,7 @@
     * [Why React?](React/why-react.md)
     * [Developer UX](React/dev-ux.md)
     * [How To](React/how-to.md)
+    * [React Router](React/react-router.md)
 * [ES6 JavaScript](ES6-JavaScript/README.md)
 * [Redux](Redux/README.md)
     * [Main Resources](Redux/main-resources.md)
