@@ -33,7 +33,7 @@ The best resources I've found so far are:
  
  Note that the *implementation* of immutability in this video uses the Immutable.js library – but that is just one way to go about this.  (Recall that Dan Abromav shows doing without that library in his Egghead videos.)  So the *implementation* that he shows is not the important part here – the 2 key aspects mentioned above are.  
 
- <p class="g2-note"> <span class="g2-note__heading">G2 Note</span>: as of December 2015, we have not determined whether or not we will use the **Immutable.js** library.</p>
+ <p class="g2-note"> <span class="g2-note__heading">G2 Note</span>: as of December 2015, we have not determined whether or not we will use the Immutable.js library.</p>
 
 
    
