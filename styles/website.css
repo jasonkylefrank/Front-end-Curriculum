@@ -5,3 +5,7 @@
     padding-left: 10px;
     background-color: rgba(118, 166, 255, 0.2);
 }
+
+.g2-note__heading {
+    font-weight: bold;
+}
