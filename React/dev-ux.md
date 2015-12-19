@@ -4,4 +4,4 @@
 
 
 
-![](dev-ux-react.jpg)
+![](dev-ux-react.png)
