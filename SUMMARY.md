@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [React](React/README.md)
-* [Redux](redux.md)
+* [Redux](Redux/README.md)
 
