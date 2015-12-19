@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [React](react.md)
+* [React](React/README.md)
 * [Redux](redux.md)
 
