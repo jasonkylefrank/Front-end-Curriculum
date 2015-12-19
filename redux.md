@@ -25,6 +25,11 @@ The best resources I've found so far are:
      2. How **change-detection** becomes:
         1. very *easy* to check for (just comparing the reference of the “before” and “after”), and,
         2. extremely *fast* (O(1)). 
+ <br /><br />
+ 
+ Note that the *implementation* of immutability in this video uses the Immutable.js library – but that is just one way to go about this.  (Recall that Dan Abromav shows doing without that library in his Egghead videos.)  So the *implementation* that he shows is not the important part here – the 2 key aspects mentioned above are.  
+
+ <p class="g2-note">G2 Note: as of December 2015, we have not determined whether or not we will use the Immutable.js library.</p>
 
 
    
