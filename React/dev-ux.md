@@ -5,4 +5,4 @@ Developing code in the React ecosystem opens up really exciting dev UX.  Being a
 Here is a brief overview of the major "pillars" of a developer UX, and how our tools and associated libraries fit into them (besides React itself).  
 <br />
 
-![](/_assets/dev-ux-react.png)
+![](_assets/dev-ux-react.png)
