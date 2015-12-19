@@ -26,3 +26,9 @@ Perhaps one of the most notable companies for the G2 team to note that is now us
 
 ![](_assets/Rally-using-react.png)
 
+##Why do big-name companies use React?
+
+Todo....
+http://reactkungfu.com/2015/07/big-names-using-react-js/
+
+
