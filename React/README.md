@@ -14,6 +14,6 @@ This section of the curriculum is not very complete yet, but to get you started 
  
 2.  Video: “[**Getting Started with React.js: React is Different**](https://www.youtube.com/watch?v=68NzBI6RRKE)”.  This one is also a year old, and only deals with concepts.  Like the previous video, it talks about DSL issues, etc.  Note that it appears to be a part of a video series, which may get into more of a tutorial – but I’ve not watched the other ones, so I’m not sure if they are good ones to follow.  And since its a little old, it may not be the best one to follow for a tutorial.
  
-I’ll try to find some good tutorials for you to follow as well, but for now, these resources will get you started understanding some concepts.
+I’ll try to find some good tutorials for you to follow as well, but for now, these resources will get you started understanding some concepts.  Currently the Redux part of this documentation is more robust.
 
 
