@@ -1,4 +1,6 @@
 /* CSS for website */
-.test {
+.g2-note {
     color: blue;
+    background-color #ccc;
+    border-left: 3px solid #999;
 }
