@@ -4,4 +4,4 @@
 
 
 
-![](dev-ux-react.png)
+![](/_assets/dev-ux-react.png)
