@@ -24,6 +24,7 @@ The best resources I've found so far are:
         2. extremely *fast* (O(1)). 
 
 
+   ![](2015-12-18_19-00-01.jpg)
 
 
 ## A note about the rest of this documentation
