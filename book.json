@@ -1,4 +1,3 @@
-// SASS Plugin:  https://github.com/GitbookIO/plugin-styles-sass
 {
     "plugins": ["styles-sass"],
     "styles": {
