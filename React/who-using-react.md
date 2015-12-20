@@ -35,7 +35,10 @@ Perhaps one of the most notable companies for the G2 team to note that is now us
 
 ### Why **Netflix** uses React
 
-Netflix [likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html) because of its performance, scalability, and compositional design patterns.
+Netflix [likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html) because of its **performance**, **scalability**, and **compositional design patterns**.  In [this talk](https://www.youtube.com/watch?v=g01dGsKbXOk&list=PLRHV6us9ju3S5SSEVzjkBWEpHDrMn_Az4&index=12) they have also reported that it is:
+* A clean, readable architecture
+* Faster to bring people up to speed
+* Faster to add features
 
 ### Why **Yahoo mail** uses React
 
