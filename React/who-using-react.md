@@ -18,6 +18,7 @@ The list does not end there. Others [include](https://github.com/facebook/react/
 * Paypal
 * Reddit
 * Salesforce
+* The New York Times
 * Uber
 * WhatsApp
 * Wired
