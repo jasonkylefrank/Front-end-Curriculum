@@ -43,6 +43,6 @@ When **Yahoo mail** [revamped their front-end](http://yahooeng.tumblr.com/post/1
 
 They evaluated Ember.js, Angular.js, Knockout.js, Durandal, Rivets, and React. They chose React. They said that it "felt like a good solution to make debugging and understand data flows much easier and predictable". 
 
-**Atlassian**, makers of Jira, BitBucket, and HipChat, also considered Angular and Ember.   
+**Atlassian**, makers of Jira, BitBucket, and HipChat, also considered Angular and Ember. They [chose React](https://developer.atlassian.com/blog/2015/02/rebuilding-hipchat-with-react/) because they believed it had several advantages.  A few they cited include:
 
 
