@@ -48,6 +48,6 @@ They evaluated Ember.js, Angular.js, Knockout.js, Durandal, Rivets, and React. T
 * React's **Virtual DOM** speed
 * **Simplicity**: "The public API can be memorized in a day and once you've built your first component, it's easy to build the next one with confidence that it'll just work."
 * **Unidirectional data flow**: "The benefit of this is that you know exactly where your data is mutating, making it easier to test and maintain your app."
-* **Testability**: 
+* **Testability**: "React components simplify testing greatly. As a proof of it's simplicity, our new web client has more tests than any of our other clients."
 
 
