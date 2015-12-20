@@ -17,3 +17,9 @@
 .bold {
     font-weight: bold;
 }
+
+.todo-note {
+    background-color: rgba(220,100,220, 0.5);
+    border-left: 3px solid rgba(180,100,180, 0.8);
+    padding-left: 10px;
+}
