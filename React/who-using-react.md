@@ -44,10 +44,11 @@ When **Yahoo mail** [revamped their front-end](http://yahooeng.tumblr.com/post/1
 They evaluated Ember.js, Angular.js, Knockout.js, Durandal, Rivets, and React. They chose React. They said that it "felt like a good solution to make debugging and understand data flows much easier and predictable". 
 
 **Atlassian**, makers of Jira, BitBucket, and HipChat, also considered Angular and Ember. They [chose React](https://developer.atlassian.com/blog/2015/02/rebuilding-hipchat-with-react/) because they believed it had several advantages.  A few they cited include:
-* Its focus on **Components**: they cited being able to share code with native clients
+* Its focus on **Components**: they cited being able to share code with native clients (desktop apps, mobile apps)
 * React's **Virtual DOM** speed
 * **Simplicity**: "The public API can be memorized in a day and once you've built your first component, it's easy to build the next one with confidence that it'll just work."
 * **Unidirectional data flow**: "The benefit of this is that you know exactly where your data is mutating, making it easier to test and maintain your app."
 * **Testability**: "React components simplify testing greatly. As a proof of it's simplicity, our new web client has more tests than any of our other clients."
+* 
 
 
