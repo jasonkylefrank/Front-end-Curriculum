@@ -28,5 +28,5 @@ The list does not end there. Others [include](https://github.com/facebook/react/
 
 Perhaps one of the most notable companies for the G2 team to note that is now using React and Redux is... **Rally** (or CA technologies as they are now known).  They are a good example of an enterprise application that is heavily focused on data using the React ecosystem at scale.
 
-![](assets/Rally-using-react.png)
+![](_assets/Rally-using-react.png)
 
