@@ -17,3 +17,12 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
  <br /><br />
 
 2.  Video: “[**Getting Started with React.js: React is Different**](https://www.youtube.com/watch?v=68NzBI6RRKE)”.  This one is also a year old, and only deals with concepts.  Like the previous video, it talks about DSL issues, etc.  Note that it appears to be a part of a video series, which may get into more of a tutorial – but I’ve not watched the other ones, so I’m not sure if they are good ones to follow.  And since its a little old, it may not be the best one to follow for a tutorial.
+
+
+<p class="work-in-progress">
+WORK IN PROGRESS...
+
+
+
+</p>
+
