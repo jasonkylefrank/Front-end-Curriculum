@@ -60,6 +60,5 @@ Regarding sharing code with native clients, they are referring to one of React's
 
 ### Why **Rally** (CA Technologies) uses React
 
-At the moment I did not find a great resource that focused on *why* CA Technologies chose to use React, but I can recommend [this video](https://www.youtube.com/watch?v=nQo0EdHNjto) by one of their developers.  He talks about what they've learned from the trenches while creating a React UI component library for use in our products.  I hope to point to specific sections of this video in other parts of this book.
-
+At the moment I did not find a great resource that focused on *why* CA Technologies chose to use React, but I can recommend [this video](https://www.youtube.com/watch?v=nQo0EdHNjto) by one of their developers.  He talks about what they've learned from the trenches while creating a React UI component library for use in their products.  
 
