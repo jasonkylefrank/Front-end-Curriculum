@@ -30,7 +30,19 @@ Perhaps one of the most notable companies for the G2 team to note that is now us
 
 ##Why do big-name companies use React?
 
-Todo....
+
 http://reactkungfu.com/2015/07/big-names-using-react-js/
+
+**Netflix** [likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html) because of its performance, scalability, and compositional design patterns.
+
+When **Yahoo mail** [revamped their front-end](http://yahooeng.tumblr.com/post/101682875656/evolving-yahoo-mail), they wanted:
+* Predictable flow ~ Easy Debugging
+* Independently deployable components
+* Shorter learning curve 
+* No dependency on large platform libraries
+
+They evaluated Ember.js, Angular.js, Knockout.js, Durandal, Rivets, and React. They chose React. They said that it "felt like a good solution to make debugging and understand data flows much easier and predictable". 
+
+**Atlassian**, makers of Jira, BitBucket, and HipChat, also considered Angular and Ember.   
 
 
