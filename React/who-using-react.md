@@ -16,6 +16,7 @@ The list does not end there. Others [include](https://github.com/facebook/react/
 * Khan Academy
 * Mapbox
 * Paypal
+* Rally (CA Technologies)
 * Reddit
 * Salesforce
 * The New York Times
