@@ -20,6 +20,7 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
 
 
 <p class="work-in-progress">
+<!--
     <p>WORK IN PROGRESS...</p>
     <ol>
         <li>It is focused on components!
@@ -51,5 +52,6 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
         </li>
         
     </ol>
+    -->
 </p>
 
