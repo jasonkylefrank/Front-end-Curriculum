@@ -20,38 +20,36 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
 
 
 <p class="work-in-progress">
-<div>WORK IN PROGRESS...</div>
-<ol>
-    <li>It is focused on components!
-    </li>
-    <li>Its fast... Virtual DOM!
-    
-    </li>
-    <li>Its easier to see data flow and debug.
-    
-    </li>
-    <li>It uses JavaScript - not Domain-specific languages!
-    
-    </li>
-    <li>It is easy to see the variables and functions that the UI needs - they are in the same file!
-    
-    </li>
-    <li>It is faster to iterate with.
-    
-    </li>
-    <li>It is faster to iterate with. (hot reloading...)
-    
-    </li>
-    <li>It allows "time-travel" and replay...
-    
-    </li>
-    <li>It has a custom browser debugging extension
-    </li>
-    <li>It has a large community that is providing excellent resources.
-    </li>
-    
-</ol>
-
-
+    <div>WORK IN PROGRESS...</div>
+    <ol>
+        <li>It is focused on components!
+        </li>
+        <li>Its fast... Virtual DOM!
+        
+        </li>
+        <li>Its easier to see data flow and debug.
+        
+        </li>
+        <li>It uses JavaScript - not Domain-specific languages!
+        
+        </li>
+        <li>It is easy to see the variables and functions that the UI needs - they are in the same file!
+        
+        </li>
+        <li>It is faster to iterate with.
+        
+        </li>
+        <li>It is faster to iterate with. (hot reloading...)
+        
+        </li>
+        <li>It allows "time-travel" and replay...
+        
+        </li>
+        <li>It has a custom browser debugging extension
+        </li>
+        <li>It has a large community that is providing excellent resources.
+        </li>
+        
+    </ol>
 </p>
 
