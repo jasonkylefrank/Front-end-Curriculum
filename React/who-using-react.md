@@ -40,7 +40,7 @@ Netflix [likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.ht
 * Faster to bring people up to speed
 * Faster to add features
 
-### Why **Yahoo mail** uses React
+### Why **Yahoo Mail** uses React
 
 When Yahoo mail [revamped their front-end](http://yahooeng.tumblr.com/post/101682875656/evolving-yahoo-mail), they wanted:
 * Predictable flow ~ Easy Debugging
