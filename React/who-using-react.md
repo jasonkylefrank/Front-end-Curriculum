@@ -31,10 +31,11 @@ Perhaps one of the most notable companies for the G2 team to note that is now us
 ##Why do big-name companies use React?
 
 
-http://reactkungfu.com/2015/07/big-names-using-react-js/
+### Why **Netflix** likes React
 
-**Netflix** [likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html) because of its performance, scalability, and compositional design patterns.
+Netflix [likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html) because of its performance, scalability, and compositional design patterns.
 
+### Why **Yahoo mail** likes React
 When **Yahoo mail** [revamped their front-end](http://yahooeng.tumblr.com/post/101682875656/evolving-yahoo-mail), they wanted:
 * Predictable flow ~ Easy Debugging
 * Independently deployable components
