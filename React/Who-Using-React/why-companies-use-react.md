@@ -2,7 +2,7 @@
 
 In the previous section, we saw that many companies are using React.  In this section we will look at *why* some of those companies chose to use it.  
 
-Note that just because other companies chose to use this technology does not mean it is a good fit for us.  See the "[Why React?](../../why-react.md)" section for discussion and resources about why our team benefits from using this technology. 
+Note that just because other companies chose to use this technology does not mean it is a good fit for us.  See the "[Why React?](../why-react.md)" section for discussion and resources about why our team benefits from using this technology. 
 
 ### Why **Netflix** uses React
 
