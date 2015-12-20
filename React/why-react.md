@@ -25,7 +25,12 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
     <li>Its fast... Virtual DOM!
     
     </li>
+    <li>Its easier to see data flow and debug.
     
+    </li>
+    <li>It uses JavaScript - not Domain-specific languages!
+    
+    </li>
     <li>
     
     </li>
