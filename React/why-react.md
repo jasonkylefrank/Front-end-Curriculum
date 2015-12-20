@@ -33,7 +33,5 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
 </ol>
 
 
-
-
 </p>
 
