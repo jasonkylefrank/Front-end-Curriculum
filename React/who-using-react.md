@@ -49,6 +49,7 @@ They evaluated Ember.js, Angular.js, Knockout.js, Durandal, Rivets, and React. T
 * **Simplicity**: "The public API can be memorized in a day and once you've built your first component, it's easy to build the next one with confidence that it'll just work."
 * **Unidirectional data flow**: "The benefit of this is that you know exactly where your data is mutating, making it easier to test and maintain your app."
 * **Testability**: "React components simplify testing greatly. As a proof of it's simplicity, our new web client has more tests than any of our other clients."
-* 
+
+Regarding sharing code with native clients, they are referring to one of React's unique advantages: [React Native](https://youtu.be/KVZ-P-ZI6W4?t=1035).  This allows them to create truly native apps using their React components.  They explain that, "This means all of the complex logic of managing message rendering, history fetching, user states, scrolling animations and state management will all be handled by React — **greatly simplifying our native client code**."  They go on to say that, "The **dev speed** we've gained with React+Flux (and its friends: gulp, webpack, lodash, karma) proves that we can release new client features faster and with more confidence on this platform than on any native client."
 
 
