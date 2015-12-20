@@ -34,7 +34,7 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
     <li>It is faster to iterate with.
     
     </li>
-    <li>It is faster to iterate with.
+    <li>It is faster to iterate with. (hot reloading...)
     
     </li>
     
