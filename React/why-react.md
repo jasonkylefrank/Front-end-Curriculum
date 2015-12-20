@@ -1,7 +1,7 @@
 #Why use React.js?
 
 <p class="todo-note">
-Todo: Create <em>sections</em> that discuss each reason...
+<strong>Todo</strong>: Create <em>sections</em> that discuss each reason...
 For now, I just have a list of resources and some commentary about them.
 </p>
 
