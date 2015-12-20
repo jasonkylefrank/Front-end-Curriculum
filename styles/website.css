@@ -27,5 +27,7 @@
 }
 
 .work-in-progress {
+    background-color: rgba(0,0,0, 0.1);
+    color: #888;
     
 }
