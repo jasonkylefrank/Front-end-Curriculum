@@ -31,6 +31,9 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
     <li>It uses JavaScript - not Domain-specific languages!
     
     </li>
+    <li>It is easy to see the variables and functions that the UI needs - they are in the same file!
+    
+    </li>
     <li>It is faster to iterate with.
     
     </li>
