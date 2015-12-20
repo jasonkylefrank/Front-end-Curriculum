@@ -1,4 +1,6 @@
 #Who's using React?
+In this chapter, you'll learn about other companies that are using React, as well as why they decided to use it.
+
 **Facebook**, the creator of React, [eats their own dog food](http://www.reactnative.com/a-closer-look-of-how-react-native-is-used-at-facebook/).  **Instagram** (owned by Facebook), not surpisingly also uses React.  React is used in production by many other companies you know.  
 
 According to [this video](https://youtu.be/Q6Kczrgw6ic?t=504), its used by **Netflix**, **Twitter**, **Apple**, and **AirBnB**:
