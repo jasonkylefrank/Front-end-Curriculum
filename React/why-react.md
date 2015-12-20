@@ -22,6 +22,8 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
 <p class="work-in-progress">
 <div>WORK IN PROGRESS...</div>
 <ol>
+    <li>It is focused on components!
+    </li>
     <li>Its fast... Virtual DOM!
     
     </li>
