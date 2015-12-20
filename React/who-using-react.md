@@ -60,6 +60,6 @@ Regarding sharing code with native clients, they are referring to one of React's
 
 ### Why **Rally** (CA Technologies) uses React
 
-
+At the moment I did not find a great resource that focused on *why* CA Technologies chose to use React, but I can recommend [this video](https://www.youtube.com/watch?v=nQo0EdHNjto) by one of their developers.  
 
 
