@@ -43,7 +43,9 @@ This one is **not a tutorial**, but is a decent one to watch to start to underst
     <li>It allows "time-travel" and replay...
     
     </li>
-    <li>
+    <li>It has a custom browser debugging extension
+    </li>
+    <li>It has a large community that is providing excellent resources.
     </li>
     
 </ol>
