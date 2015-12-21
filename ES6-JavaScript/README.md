@@ -21,7 +21,8 @@ When you're first learning ES6, I think a good first goal is to be able to under
 
 #### Tips that I've not seen well-explained
 
-TODO... grab the stuff from my email to David and Chad.
+**TODO**... grab the stuff from my email to David and Chad.
+
 
 
 ### Resources List
