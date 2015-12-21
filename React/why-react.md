@@ -2,8 +2,6 @@
 
 <p class="todo-note">
 <strong>Todo...</strong> Right now I just have a list of resources and some commentary about them. Instead, I need to create <em>sections</em> that list and discuss discrete <em>reasons</em>...
-
-For now, I just have a list of resources and some commentary about them.
 </p>
 
 1. Video “[**Thinking in Components: Building Powerful UIs in React.js**](https://www.youtube.com/watch?v=xSGuffp0o6E&index=6&list=PLRHV6us9ju3R5eV7pVI8VOyWpfG2U3v1c)”.  This is a little old now (Nov 2014), but it shows some things pretty decent.  Things like:
