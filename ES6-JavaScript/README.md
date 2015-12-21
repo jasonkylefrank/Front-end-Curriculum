@@ -29,7 +29,6 @@ TODO... grab the stuff from my email to David and Chad.
 1. **[ECMAScript 6 (ES6): What’s New In The Next Version Of JavaScript](http://www.smashingmagazine.com/2015/10/es6-whats-new-next-version-javascript/)** by Lars Kappert (Smashing Magazine): This article talks about features in a to-the-point manner - focusing mostly on examples.  As stated in the preface above, I would skip over the sections that talk about new methods on the String, Math, and Array objects for now.  
 2. **[Top 10 ES6 Features Every Busy JavaScript Developer Must Know](http://webapplog.com/es6/)** by Webapplog: This one complements the Smashing Magazine article above because it talks about a few different features than what that one does. 
 3. **[ECMASCript 6 - New Features: Overview & Comparison](http://es6-features.org/#Constants)**:  One of the biggest ways to appreciate what ES6 gives you is to compare how it compares to the equivalent ES5 code.  That's what this resource excels at!  In fact, it provides not much of anything else.  Thus its not a great place to *start* your learning (since it does not try to explain things).  But is a great resource once you are ready to *compare* the two versions.
-4. asdf
 5. [**Exploring ES6**](http://exploringjs.com/es6/index.html) by Dr. Axel Rauschmayer:  This is a full ebook.  Its probably not the best place to start your learning. But if you want a larger reference or more-detailed explanations, this looks like a good source.  The author seems to be well-respected in the industry.
 
 
