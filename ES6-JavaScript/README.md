@@ -8,10 +8,7 @@ Overall I think ES6 makes JavaScript coding *easier* and *safer* to write and un
 
 Perhaps I will eventually break down this chapter into more detailed subsections.  But for now I just list some learning resources and brief commentary about them.  
 
-<p class="todo-note">
-<strong>Todo:</strong> 
 
-</p>
 
 
 More to come...
