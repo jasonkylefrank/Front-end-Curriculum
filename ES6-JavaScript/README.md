@@ -27,7 +27,7 @@ TODO...
 ### Resources List
 
 1. **[ECMAScript 6 (ES6): What’s New In The Next Version Of JavaScript](http://www.smashingmagazine.com/2015/10/es6-whats-new-next-version-javascript/)** by Lars Kappert (Smashing Magazine): This article talks about features in a to-the-point manner - focusing mostly on examples.  As stated in the preface above, I would skip over the sections that talk about new methods on the String, Math, and Array objects for now.  
-2. **[Top 10 ES6 Features Every Busy JavaScript Developer Must Know](http://webapplog.com/es6/)** by Webapplog: 
+2. **[Top 10 ES6 Features Every Busy JavaScript Developer Must Know](http://webapplog.com/es6/)** by Webapplog: This one complements the Smashing Magazine article above because it talks about a few different features than what that one does. 
 3. asdf
 4. asdf
 5. [**Exploring ES6**](http://exploringjs.com/es6/index.html) by Dr. Axel Rauschmayer:  This is a full ebook.  Its probably not the best place to start your learning. But if you want a larger reference or more-detailed explanations, this looks like a good source.  The author seems to be well-respected in the industry.
