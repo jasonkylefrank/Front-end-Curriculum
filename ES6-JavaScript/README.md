@@ -10,7 +10,10 @@ Perhaps I will eventually break down this chapter into more detailed subsections
 
 ##Learning Resources
 
-1. 
+Based on my experience reading other people's ES6 code, my recommendation for learning ES6 is to focus on the new syntax additions - instead of new *methods* on native objects (like Array, String, and Math).
+
+1. **[ECMAScript 6 (ES6): What’s New In The Next Version Of JavaScript](http://www.smashingmagazine.com/2015/10/es6-whats-new-next-version-javascript/)**
+By Lars Kappert (Smashing Magazine): **todo...**
 2. asdf
 3. asdf
 4. asdf
