@@ -28,7 +28,7 @@ Before you start working your way through the resources list below, there are a 
 
 2.  **Arrow functions**:  Sometimes people just show these as being a less-verbose way to write anonymous functions.  That’s great and all, but a big benefit to them is also the fact that it automatically binds the “this” of its context.  Here’s an example:
 
-```
+ ```
 // Note: using ES6 Class syntax here since it is much more understandable
 class TestClass {
   constructor() {
