@@ -36,5 +36,5 @@ You may have seen in the React docs the tip which declares that "[Props in getIn
 
 ReactDOM.render(<Counter initialCount={7}/>, mountNode);```
 
-
+#### What are the options using Flux?
 We must also consider how our use of the Flux pattern comes into play (and specifically Redux)...
