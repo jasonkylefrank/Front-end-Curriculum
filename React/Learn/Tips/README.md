@@ -39,4 +39,16 @@ ReactDOM.render(<Counter initialCount={7}/>, mountNode);
 ```
 
 #### What are the options when using Flux?
-We must also consider how our use of the Flux pattern comes into play (and specifically Redux).
+We must also consider how our use of the Flux pattern comes into play (and specifically Redux).  If we get server data using a Redux `Action`, how should we get that data into the Component that needs it for `state`?
+
+An option that we are exploring is to follow the general advice in [this post](http://stackoverflow.com/a/28785276/718325), which is to make an Ajax call in the component's `getInitialState` method.  But with Redux, instead of the Component making the Ajax call itself, it would utilize a Redux asynchronous `action` to fetch the data and the Component would get the data from the Redux store. (Don't worry if that doesn't make sense yet - I have an entire chapter about Redux and a section about Asychronous actions.)
+
+In summary, there are **2 options** that we are exploring - each may be useful in certain situations:
+1. The Component receives the initial data as a `prop` with a self-documenting prop name, such as `initialData`.
+2. The Component gets the data in its `getInitialState()` method by interacting with the Redux `store` and `actions` to fetch data.
+
+<p class="todo-note">
+<strong>TODO:</strong> Show how to do option #2 with Redux...
+</p>
+
+
