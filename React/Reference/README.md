@@ -9,4 +9,3 @@ These reference materials are not a good place to *learn* React (I have a whole 
  
  This reference is handy for finding React methods and things quickly and seeing a concise description about them.  If you then need further details you can follow the link to the full docs. 
  
-2. 
