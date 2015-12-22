@@ -69,7 +69,7 @@ Output:
 
  Here is an example.  The top part is ES6, the bottom is the equivalent ES5.
 
- ![](classes-es6-vs-es5.png)
+ ![](_assets/classes-es6-vs-es5.png)
 
 4. 
 
