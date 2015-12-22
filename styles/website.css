@@ -39,6 +39,7 @@
     border-left: 4px solid rgba(0,0,0,.2);
     background-color: rgba(0,0,0,0.04);
     padding-left: 10px;
+    margin-bottom: 25px;
     font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     font-size: .85em !important;
     color: rgba(32, 32, 146, 0.8);
