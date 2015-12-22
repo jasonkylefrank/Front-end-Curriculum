@@ -87,4 +87,4 @@ Output:
 
 Now that you've read about ES6 features, its time to try them out!  Babel has a very handy online transpiler that you can use to learn ES6!  See your code transpiled as you type:
 
-[![](babel.png)]({{ book.linkBabelEditorBlockScopeExample }})
+[![](_assets/babel.png)]({{ book.linkBabelEditorBlockScopeExample }})
