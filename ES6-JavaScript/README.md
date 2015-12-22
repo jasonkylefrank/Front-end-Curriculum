@@ -26,7 +26,7 @@ Before you start working your way through the resources list below, there are a 
 
  Destructuring can also work with **arrays**, so the same principle applies to seeing `[` and `]`.  Left-hand-side means its destructuring, right-hand-side means you’re making an array.
 
-2.  **Arrow functions**:  Sometimes people just show these as being a less-verbose way to write anonymous functions.  That’s great and all, but a big benefit to them is also the fact that it automatically binds the “this” of its context.  Here’s an example:
+2.  **Arrow functions**:  Sometimes people just show these as being a less-verbose way to write anonymous functions.  That’s great and all, but a **big benefit** to them is also the fact that it **automatically binds the “this” of its context**.  Here’s an example:
 
  ```
 // Note: using ES6 Class syntax here since it is much more understandable
@@ -58,7 +58,12 @@ class TestClass {
 var testClass = new TestClass();
 testClass.doSomething();
 ```
-
+Output:
+```
+before setTimeout, x: 5
+In the setTimeout, without arrow func, x:undefined
+In the setTimeout, WITH arrow func, x: 5
+```
 
 
 3. Classes:  Its best to compare how a class would have to be written in ES5 compared to its ES6 equivalent to appreciate the advancement.  Unfortunately, many tutorials don’t show the ES5 equivalent since it is often quite large and ugly.  The ES5 examples you’ll want to look at are ones that show how you have to add things onto the prototype of the “class” that you’re defining. 
