@@ -39,4 +39,4 @@ ReactDOM.render(<Counter initialCount={7}/>, mountNode);
 ```
 
 #### What are the options when using Flux?
-We must also consider how our use of the Flux pattern comes into play (and specifically Redux)...
+We must also consider how our use of the Flux pattern comes into play (and specifically Redux).
