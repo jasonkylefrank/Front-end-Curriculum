@@ -31,10 +31,10 @@ Before you start working your way through the resources list below, there are a 
  ```
 // Note: using ES6 Class syntax here since it is much more understandable
 class TestClass {
-  constructor() {
-    this.x = 5;
-    this.y = 6;
-  }
+    constructor() {
+        this.x = 5;
+        this.y = 6;
+    }
   
   doSomething() {
     console.log("before setTimeout, x: " + this.x);
