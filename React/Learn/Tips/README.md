@@ -1,7 +1,7 @@
 # React Tips
 
 
-## Should your component have 'state' or only 'props'?
+## Should your component have `state` or only `props`?
 
 React's concepts and API and pretty simple.  But like many things in software development, figuring out how to *architect* things can be more difficult.  This topic is one of those architectural items.
 
