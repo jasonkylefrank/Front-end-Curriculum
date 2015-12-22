@@ -43,7 +43,7 @@ class TestClass {
     setTimeout(function() {  
         console.log("In the setTimeout, without arrow func, x:" + this.x);
     }, 100); // Would have to add ".bind(this)" to the end of 
-              //  the anonymous function to get it to work
+             //  the anonymous function to get it to work
     
     // ES6 arrow function: this one works great without having
     //  to do anything about “this” (it gets bound automatically!)
