@@ -85,6 +85,6 @@ Output:
 <strong>TODO</strong>... Show the Babel "try it out" page with an <a href="{{ book.linkBabelEditorBlockScopeExample }}">example of block scope</a>
 </p>
 
-Now that you've read about ES6 features, its time to try them out!  Babel has a very handy online transpiler that you can use to learn ES6!  See your code transpiled as you type:
+Now that you've read about ES6 features, its time to try them out!  Babel has a very handy [online transpiler]({{ book.linkBabelEditorBlockScopeExample }}) that you can use to learn ES6!  See your code transpiled as you type:
 
 [![](_assets/babel.png)]({{ book.linkBabelEditorBlockScopeExample }})
