@@ -10,6 +10,7 @@
         * [Getting Started](React/Learn/Getting-Started/README.md)
         * [Tips](React/Learn/Tips/README.md)
     * [React Router](React/react-router.md)
+    * [Reference](React/Reference/README.md)
 * [ES6 JavaScript](ES6-JavaScript/README.md)
 * [Redux](Redux/README.md)
     * [Main Resources](Redux/main-resources.md)
