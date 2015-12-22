@@ -6,7 +6,6 @@ We are seeing the JavaScript community using ES6, and much of the *React* commun
 
 Overall I think ES6 makes JavaScript coding *easier* and *safer* to write and understand.  And I think the learning curve is fairly low. 
 
-Perhaps I will eventually break down this chapter into more detailed subsections.  But for now I just list some learning resources and brief commentary about them.  
 
 ## Learning Resources
 
