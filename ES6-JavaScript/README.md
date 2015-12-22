@@ -20,8 +20,9 @@ When you're first learning ES6, I think a good first goal is to be able to under
 
 #### Tips that I've not seen well-explained
 
-**TODO**... grab the stuff from my email to David and Chad.
-
+<p class="todo-note">
+<strong>TODO</strong>... grab the stuff from my email to David and Chad.
+</p>
 
 
 ### Resources List
@@ -33,8 +34,9 @@ When you're first learning ES6, I think a good first goal is to be able to under
 
 ### Try out ES6 coding online
 
-**TODO**... Show the Babel "try it out" page with an <a href="{{ book.linkBabelEditorBlockScopeExample }}">example of block scope</a>
-
+<p class="todo-note">
+<strong>TODO</strong>... Show the Babel "try it out" page with an <a href="{{ book.linkBabelEditorBlockScopeExample }}">example of block scope</a>
+</p>
 
 
 More to come...
