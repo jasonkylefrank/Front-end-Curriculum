@@ -71,8 +71,6 @@ Output:
 
  ![](_assets/classes-es6-vs-es5.png)
 
-4. 
-
 
 ### Resources List
 
