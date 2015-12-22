@@ -65,7 +65,6 @@ Output:
  In the setTimeout, WITH arrow func,  <strong>x: 5</strong> <br />
  </p>
 
-
 3. **Classes**:  Its best to compare how a class would have to be written in ES5 compared to its ES6 equivalent to appreciate the advancement.  Unfortunately, many tutorials don’t show the ES5 equivalent since it is often quite large and ugly.  The ES5 examples you’ll want to look at are ones that show how you have to add things onto the prototype of the “class” that you’re defining. 
 
 
