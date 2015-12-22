@@ -37,12 +37,12 @@ class TestClass {
   }
   
   doSomething() {
-    console.log("before setTimeout: " + this.x);
+    console.log("before setTimeout, x: " + this.x);
     
     // Using an ES5 function... problem child
     setTimeout(function() {  
-        console.log("In the setTimeout, without arrow func:" + this.x);
-    }, 1000); // Would have to add ".bind(this)" to the end of 
+        console.log("In the setTimeout, without arrow func, x:" + this.x);
+    }, 100); // Would have to add ".bind(this)" to the end of 
               //  the anonymous function to get it to work
     
     // ES6 arrow function: this one works great without having
@@ -50,10 +50,9 @@ class TestClass {
     setTimeout(
       // this is an "arrow function"
       () => { 
-        console.log("In the setTimeout: " + this.x); 
-      }
+        console.log("In the setTimeout, WITH arrow func, x: " + this.x); 
+      }, 100
     );
-    
   }
 }
 var testClass = new TestClass();
