@@ -32,5 +32,9 @@ When you're first learning ES6, I think a good first goal is to be able to under
 3. **[ECMASCript 6 - New Features: Overview & Comparison](http://es6-features.org/#Constants)**:  One of the biggest ways to appreciate what ES6 gives you is to compare how it compares to the equivalent ES5 code.  That's what this resource excels at!  In fact, it provides not much of anything else.  Thus its not a great place to *start* your learning (since it does not try to explain things).  But is a great resource once you are ready to *compare* the two versions.
 5. [**Exploring ES6**](http://exploringjs.com/es6/index.html) by Dr. Axel Rauschmayer:  This is a full ebook.  Its probably not the best place to start your learning. But if you want a larger reference or more-detailed explanations, this looks like a good source.  The author seems to be well-respected in the industry.
 
+### Try out ES6 coding online
+
+**TODO**... Show the Babel "try it out" page with an example of block scope...
+
 
 More to come...
