@@ -31,29 +31,29 @@ Before you start working your way through the resources list below, there are a 
  ```
 // Note: using ES6 Class syntax here since it is much more understandable
 class TestClass {
-    constructor() {
-        this.x = 5;
-        this.y = 6;
-    }
+        constructor() {
+            this.x = 5;
+            this.y = 6;
+        }
   
-  doSomething() {
-    console.log("before setTimeout, x: " + this.x);
-    
-    // Using an ES5 function... problem child
-    setTimeout(function() {  
-        console.log("In the setTimeout, without arrow func, x:" + this.x);
-    }, 100); // Would have to add ".bind(this)" to the end of 
-             //  the anonymous function to get it to work
-    
-    // ES6 arrow function: this one works great without having
-    //  to do anything about “this” (it gets bound automatically!)
-    setTimeout(
-      // this is an "arrow function"
-      () => { 
-        console.log("In the setTimeout, WITH arrow func, x: " + this.x); 
-      }, 100
-    );
-  }
+        doSomething() {
+            console.log("before setTimeout, x: " + this.x);
+            
+            // Using an ES5 function... problem child
+            setTimeout(function() {  
+                console.log("In the setTimeout, without arrow func, x: " + this.x);
+            }, 100); // Would have to add ".bind(this)" to the end of 
+                     //  the anonymous function to get it to work
+            
+            // ES6 arrow function: this one works great without having
+            //  to do anything about “this” (it gets bound automatically!)
+            setTimeout(
+              // this is an "arrow function"
+              () => { 
+                console.log("In the setTimeout, WITH arrow func, x: " + this.x); 
+              }, 100
+            );
+        }
 }
 var testClass = new TestClass();
 testClass.doSomething();
