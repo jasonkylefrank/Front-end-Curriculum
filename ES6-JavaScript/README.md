@@ -20,9 +20,49 @@ When you're first learning ES6, I think a good first goal is to be able to under
 
 #### Tips that I've not seen well-explained
 
-<p class="todo-note">
-<strong>TODO</strong>... grab the stuff from my email to David and Chad.
-</p>
+Before you start working your way through the resources list below, there are a few points that I think will help you if you're first learning these new features.  These are not full explanations about these features, but rather things to augment the descriptions you'll see in the other resources.
+
+1. **Destructuring**:  Just realize that anytime you see `{` and `}` on the LEFT HAND SIDE of the assignment operator (`=`), that the syntax means you are “destructuring”- *not* creating an object.  If you see something wrapped in the curly braces on the RIGHT HAND SIDE of the assignment operator, it mean you’re making an object.
+
+ Destructuring can also work with **arrays**, so the same principle applies to seeing `[` and `]`.  Left-hand-side means its destructuring, right-hand-side means you’re making an array.
+
+2.  **Arrow functions**:  Sometimes people just show these as being a less-verbose way to write anonymous functions.  That’s great and all, but a big benefit to them is also the fact that it automatically binds the “this” of its context.  Here’s an example:
+
+```
+// Note: using ES6 Class syntax here since it is much more understandable
+class TestClass {
+  constructor() {
+    this.x = 5;
+    this.y = 6;
+  }
+  
+  doSomething() {
+    console.log("before setTimeout: " + this.x);
+    
+    // Using an ES5 function... problem child
+    setTimeout(function() {  
+        console.log("In the setTimeout, without arrow func:" + this.x);
+    }, 1000); // Would have to add ".bind(this)" to the end of 
+              //  the anonymous function to get it to work
+    
+    // ES6 arrow function: this one works great without having
+    //  to do anything about “this” (it gets bound automatically!)
+    setTimeout(
+      // this is an "arrow function"
+      () => { 
+        console.log("In the setTimeout: " + this.x); 
+      }
+    );
+    
+  }
+}
+var testClass = new TestClass();
+testClass.doSomething();
+```
+
+
+
+3. Classes:  Its best to compare how a class would have to be written in ES5 compared to its ES6 equivalent to appreciate the advancement.  Unfortunately, many tutorials don’t show the ES5 equivalent since it is often quite large and ugly.  The ES5 examples you’ll want to look at are ones that show how you have to add things onto the prototype of the “class” that you’re defining. 
 
 
 ### Resources List
