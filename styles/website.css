@@ -40,6 +40,6 @@
     background-color: rgba(0,0,0,0.04);
     padding-left: 10px;
     font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-    font-size: .85em;
+    font-size: .85em !important;
     color: rgba(32, 32, 146, 0.8);
 }
