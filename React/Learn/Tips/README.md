@@ -35,3 +35,6 @@ You may have seen in the React docs the tip which declares that "[Props in getIn
 });
 
 ReactDOM.render(<Counter initialCount={7}/>, mountNode);```
+
+
+We must also consider how our use of the Flux pattern comes into play (and specifically Redux).
