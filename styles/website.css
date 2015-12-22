@@ -34,3 +34,8 @@
     font-size: .8em !important;
     margin: 30px 0;
 }
+
+.code-output {
+    border-left: 4px solid rgba(0,0,0,.2);
+    background-color: rgba(0,0,0.05);
+}
