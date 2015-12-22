@@ -34,7 +34,7 @@ When you're first learning ES6, I think a good first goal is to be able to under
 
 ### Try out ES6 coding online
 
-**TODO**... Show the Babel "try it out" page with an <a href="bla">example of block scope</a>
+**TODO**... Show the Babel "try it out" page with an <a href="{{ book.link-babel-editor-block-scope-example }}">example of block scope</a>
 
 
 
