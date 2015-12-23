@@ -35,8 +35,3 @@ The best resources I've found so far are:
  <p class="g2-note"> <span class="g2-note__heading">G2 Note</span>: as of December 2015, we have not determined whether or not we will use the <span class="bold">Immutable.js</span> library.</p>
 
 
-   
-
-
-## A note about the rest of this documentation
-The official Redux documentation, plus other resources mentioned above, should be your go-to sources of learning.  I'm only including some extra notes below that I felt may help augment those other resources.  In other words, you should check out those resources before reading the rest of this one.
