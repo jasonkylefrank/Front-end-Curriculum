@@ -2,6 +2,12 @@
 
 
 
+
+
+Redux is the Flux implementation that we are using to tie our components together.  Flux is an architectural pattern that works especially well with React to handle data flow on the client.  
+
+I think Redux is simpler to use than Facebook's Flux implementation. It also has the advantage of supporting **hot-reloading** and **"time travel"**.  More on those topics in a bit. 
+
 1. [**Hot Reloading with Time Travel at react-europe 2015**](https://www.youtube.com/watch?v=xsSnOQynTHs). This video is a 30 minute talk by Dan Abramov – creator of the React Hot Loader and Redux.  This talk is primarily about the hot reloading and time-travel capabilities that these two technologies are capable of. However, you'll also begin to learn about programming concepts that are core to Redux, such as pure functions.  If nothing else, this video should get you pretty pumped up about this architecture!
 
  ![](_assets/2015-12-18_18-02-41.jpg)
