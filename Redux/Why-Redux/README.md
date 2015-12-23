@@ -26,3 +26,5 @@ Redux's creator lists [several reasons](http://stackoverflow.com/a/32920459/7183
  I should point out one thing that confused me the first time I saw this video.  The speaker is using the Firefox dev tools for his demonstration... but what I didn't understand was that the dev tools *is* the UI in this case (not something that he's using to debug a different UI):
  ![](_assets/2015-12-18_22-13-59.jpg)
 <br /><br />
+
+3. [Hot reloading and time travel debugging: what are they?](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35) by Lin Clark. 
