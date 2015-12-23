@@ -1,8 +1,10 @@
 # Getting stared learning React
 
-To begin, it may be helpful to read or watch some resources which focus on concepts.  One such concept is React's **unidirectional data flow**.
+To begin, it may be helpful to read or watch some resources which focus on concepts.  One such concept is React's **unidirectional data flow**.  Another is its **Virtual DOM**. You will see and hear about these quite a bit. The following diagram can serve as a reference for these two concepts:
 
-![](_assets/react-flow-diagram.png)
+[![](_assets/react-flow-diagram.png)](https://medium.com/@marksoper/clearing-up-react-data-management-confusion-with-flux-redux-and-relay-aad504e63cae#.f18cfe4jf)
+
+You may have also seen elsewhere in this ebook a couple of videos that I referenced which discuss these concepts.  One was “[**Thinking in Components: Building Powerful UIs in React.js**](https://www.youtube.com/watch?v=xSGuffp0o6E&index=6&list=PLRHV6us9ju3R5eV7pVI8VOyWpfG2U3v1c)”, and another was “[**Getting Started with React.js: React is Different**](https://www.youtube.com/watch?v=68NzBI6RRKE)”.
 
 1. Video “[**Thinking in Components: Building Powerful UIs in React.js**](https://www.youtube.com/watch?v=xSGuffp0o6E&index=6&list=PLRHV6us9ju3R5eV7pVI8VOyWpfG2U3v1c)”.  
 2.  Video: “[**Getting Started with React.js: React is Different**](https://www.youtube.com/watch?v=68NzBI6RRKE)”. 
