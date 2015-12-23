@@ -13,5 +13,5 @@ There are two main parts of the React ecosystem to learn:
 
 For now, you can think of the data flow in the following diagram without Actions and Store parts (**React** would be our "View Provider"):
 
-![](redux-diagram.png)
+![](_assets/redux-diagram.png)
 
