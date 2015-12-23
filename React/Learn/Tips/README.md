@@ -41,14 +41,11 @@ ReactDOM.render(<Counter initialCount={7}/>, mountNode);
 #### What are the options when using Flux?
 We must also consider how our use of the Flux pattern comes into play (and specifically Redux).  If we get server data using a Redux `Action`, how should we get that data into the Component that needs it for `state`?
 
-[Some say](http://stackoverflow.com/a/28785276/718325) that an option is to make an Ajax call in the component's `getInitialState` method to get the initial data.  But [most](http://stackoverflow.com/a/26618216/718325) [sources](https://facebook.github.io/react/tips/initial-ajax.html) say that the Ajax call should occur in the component's `componentDidMount` method.  Of course, with Redux, the component would not make the Ajax call itself.  It would use a Redux asynchronous `action` to fetch the data and the component would get the data from the Redux store.  (Don't worry if that doesn't make sense yet.  I have an entire chapter about Redux and a section about asynchronous actions.)
+[Some say](http://stackoverflow.com/a/28785276/718325) that an option is to make an Ajax call in the component's `getInitialState` method to get the initial data.  But [most](http://stackoverflow.com/a/26618216/718325) [sources](https://facebook.github.io/react/tips/initial-ajax.html) say that the Ajax call should occur in the component's `componentDidMount` method.  Of course, [with Redux](http://rackt.org/redux/docs/advanced/ExampleRedditAPI.html), the component would not make the Ajax call itself.  It would use a Redux asynchronous `action` to fetch the data and the component would get the data from the Redux store.  (Don't worry if that doesn't make sense yet.  I have an entire chapter about Redux and a section about asynchronous actions.)
 
 In summary, there are **2 options** that we are exploring - each may be useful in certain situations:
-1. The Component receives the initial data as a `prop` with a self-documenting prop name, such as `initialData`.
-2. The Component gets the data in its `getInitialState()` method by interacting with the Redux `store` and `actions` to fetch data.
+1. The Component receives the initial data as a `prop` with a self-documenting prop name, such as `initialData`. Or,
+2. The Component gets the data in its `componentDidMount()` method by interacting with the Redux `store` and `actions` to request and receive data.
 
-<p class="todo-note">
-<strong>TODO:</strong> Show how to do option #2 with Redux...
-</p>
 
 
