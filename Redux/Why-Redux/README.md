@@ -2,14 +2,17 @@
 
 As I reported elsewhere, using a Flux implementation like Redux **lets us avoid tightly coupling our React components**.  Additionally, the Flux pattern also works especially well with React to handle data flow on the client.  This is because Flux espouses a unidirectional data flow, just like React.  Thus Flux and React form a complete unidirectional data flow loop.
 
+##Why Redux specifically?
+
+Redux's creator lists [several reasons](http://stackoverflow.com/a/32920459/718325), but to it simple here, I'll focus on two:
+1. **Simplicity** (compared to Facebook's Flux). I think Redux is simpler to use than Facebook's Flux implementation.  And I'm not alone.  If you google around, you'll find many blog posts reporting things like:
+
+ "Redux is by far the simplest of the frameworks I’ve discussed. It achieves this by making additional assumptions beyond those of Flux itself. Chief amongst these is the assumption that you never mutate your data. With this knowledge, you no longer need the Flux Dispatcher. It also makes it possible to describe changes to your data with plain old functions instead of a giant switch statement."
+
+2. **Developer Experience**.  this is where the **hot-reloading** and **"time travel"** come into play.  These are major advancements in how we can develop applications! ...
 
 
 
-1. **It lets us avoid tightly coupling our React components**.  By using Redux, the React components don't need to know as much about each other.  They can simply fire Redux "actions" and other React components can receive modified data from the Redux "store".
-
-
-
-Redux is the Flux implementation that we are using to tie our components together.  Flux is an architectural pattern that works especially well with React to handle data flow on the client.  
 
 I think Redux is simpler to use than Facebook's Flux implementation. It also has the advantage of supporting **hot-reloading** and **"time travel"**.  More on those topics in a bit. 
 
