@@ -1,6 +1,11 @@
 # Why Redux?
 
+As I reported elsewhere, using a Flux implementation like Redux **lets us avoid tightly coupling our React components**.  Additionally, the Flux pattern also works especially well with React to handle data flow on the client.  This is because Flux espouses a unidirectional data flow, just like React.  Thus Flux and React form a complete unidirectional data flow loop.
 
+
+
+
+1. **It lets us avoid tightly coupling our React components**.  By using Redux, the React components don't need to know as much about each other.  They can simply fire Redux "actions" and other React components can receive modified data from the Redux "store".
 
 
 
