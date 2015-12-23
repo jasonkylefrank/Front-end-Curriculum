@@ -5,7 +5,7 @@ As I reported elsewhere, using a Flux implementation like Redux **lets us avoid 
 ##Why Redux specifically?
 
 Redux's creator lists [several reasons](http://stackoverflow.com/a/32920459/718325), but to it simple here, I'll focus on two:
-1. **Simplicity** (compared to Facebook's Flux). I think Redux is simpler to use than Facebook's Flux implementation.  And I'm not alone.  If you google around, you'll find many blog posts reporting things like:
+1. **Simplicity** (compared to Facebook's Flux). I think Redux is simpler to use than Facebook's Flux implementation.  And I'm not alone.  If you google around, you'll find many [blog posts](http://jamesknelson.com/which-flux-implementation-should-i-use-with-react/#redux) reporting things like:
 
  "Redux is by far the simplest of the frameworks I’ve discussed. It achieves this by making additional assumptions beyond those of Flux itself. Chief amongst these is the assumption that you never mutate your data. With this knowledge, you no longer need the Flux Dispatcher. It also makes it possible to describe changes to your data with plain old functions instead of a giant switch statement."
 
