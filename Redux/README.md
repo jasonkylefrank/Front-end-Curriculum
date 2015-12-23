@@ -16,3 +16,8 @@ As a reference, you can think of the data flow illustrated in the following diag
 <strong>Todo:</strong> Somewhere discuss the notion of the Redux <code>store</code> being like a <strong>"model"</strong>, and React <strong>components</strong> taking on the role of both <strong>"view-model"</strong> and <strong>"view"</strong>.
 </p>
 
+## A note about learning Redux
+When I was first learning React (without Redux), I found it easy to get started by learning just a few concepts.  I didn't feel like I had to understand a bunch of things just to reach a "critical mass" that would allow me to get going. 
+
+In contrast, Redux (and even more so Facebook's Flux) requires you to understand more pieces before you can be comfortable doing much.  Its one of those things where you just need to reach a certain plateau of concepts, and then you'll be fine.
+
