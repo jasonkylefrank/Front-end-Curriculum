@@ -29,4 +29,4 @@ Redux's creator lists [several reasons](http://stackoverflow.com/a/32920459/7183
 
 3. [**Hot reloading and time travel debugging: what are they?**](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35) by Lin Clark. This one won't tell you anything new that the videos didn't show.  But if you prefer to read instead of watch, this one will do nicely.
 
- ![](redux-dev-ux-cartoon.png) 
+ ![](_assets/redux-dev-ux-cartoon.png) 
