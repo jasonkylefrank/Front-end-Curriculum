@@ -13,6 +13,7 @@
     * [Reference](React/Reference/README.md)
 * [ES6 JavaScript](ES6-JavaScript/README.md)
 * [Redux](Redux/README.md)
+    * [Why Redux? (and intro concepts)](Redux/Why-Redux/README.md)
     * [Main Resources](Redux/main-resources.md)
     * [Actions](Redux/actions.md)
 
