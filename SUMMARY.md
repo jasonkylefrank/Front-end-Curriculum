@@ -15,6 +15,8 @@
 * [Redux](Redux/README.md)
     * [Why Redux? (and intro concepts)](Redux/Why-Redux/README.md)
     * [Learn](Redux/Learn/README.md)
+        * [Getting Started](Redux/Learn/Getting-Started/README.md)
+        * [Tips](Redux/Learn/Tips/README.md)
     * [Main Resources](Redux/main-resources.md)
     * [Actions](Redux/actions.md)
 
