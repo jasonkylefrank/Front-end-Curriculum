@@ -1,7 +1,7 @@
 # Getting started with Redux
 
 
-1. A Cartoon Intro to Redux by Lin Clark has two main purposes.  First, it shows Redux differs from Facebook's Flux library.  I don't recommend spending too much time trying to understand that aspect of it, but it does at least start to give you a feel for Redux concepts. Second, it breaks down the pieces and data flow of Redux into office-cartoons that really help hammer-home the concepts.  **I recommend reading this now and then *again* after you've read/watched the next resources which show code**.  After you've seen the code, rereading this will help to crystallize how everything works together.
+1. [**A Cartoon Intro to Redux**](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6) by Lin Clark has two main purposes.  First, it shows Redux differs from Facebook's Flux library.  I don't recommend spending too much time trying to understand that aspect of it, but it does at least start to give you a feel for Redux concepts. Second, it breaks down the pieces and data flow of Redux into office-cartoons that really help hammer-home the concepts.  **I recommend reading this now and then *again* after you've read/watched the next resources which show code**.  After you've seen the code, rereading this will help to crystallize how everything works together.
 
  ![](_assets/redux-cartoon.png)
  ![](_assets/redux-cartoon-flow.png)
