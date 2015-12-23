@@ -1,8 +1,12 @@
 # Getting stared learning React
 
-
+To begin, it may be helpful to read or watch some resources which focus on concepts.  One such concept is React's **unidirectional data flow**.
 
 ![](_assets/react-flow-diagram.png)
+
+1. Video “[**Thinking in Components: Building Powerful UIs in React.js**](https://www.youtube.com/watch?v=xSGuffp0o6E&index=6&list=PLRHV6us9ju3R5eV7pVI8VOyWpfG2U3v1c)”.  
+2.  Video: “[**Getting Started with React.js: React is Different**](https://www.youtube.com/watch?v=68NzBI6RRKE)”. 
+
 
 Here are some resources that I think will be helpful if you're starting at ground zero:
 
