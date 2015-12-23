@@ -12,5 +12,7 @@ As a reference, you can think of the data flow illustrated in the following diag
 
 ![](_assets/redux-diagram.png)
 
-
+<p class="todo-note">
+<strong>Todo:</strong> Somewhere discuss the notion of the Redux <code>store</code> being like a <strong>"model"</strong>, and React <strong>components</strong> taking on the role of both <strong>"view-model"</strong> and <strong>"view"</strong>.
+</p>
 
