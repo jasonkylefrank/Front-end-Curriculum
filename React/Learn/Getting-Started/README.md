@@ -2,7 +2,7 @@
 
 
 
-![](react-flow-diagram.png)
+![](_assets/react-flow-diagram.png)
 
 Here are some resources that I think will be helpful if you're starting at ground zero:
 
