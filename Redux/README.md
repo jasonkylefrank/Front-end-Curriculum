@@ -4,7 +4,7 @@ Redux is the Flux implementation that we are using to tie our components togethe
 
 I think Redux is simpler to use than Facebook's Flux implementation. It also has the advantage of supporting **hot-reloading** and **"time travel"**.  More on those topics in a bit. 
 
-In a nutshell, the main things to understand about Redux is that:
+In a nutshell, the main things to understand about going from "React only" to "React with Redux" is that:
 1. **It lets us avoid tightly coupling our React components**.  By using Redux, the React components don't need to know as much about each other.  They can simply fire Redux "actions" and other React components can receive modified data from the Redux "store".  
 2. Pieces of your Redux code (not your React components) will **request and receive data from the server**. 
 
