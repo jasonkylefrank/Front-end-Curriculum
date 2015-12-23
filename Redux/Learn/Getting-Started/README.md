@@ -10,7 +10,7 @@
 ![](_assets/2015-12-18_18-33-59.jpg)
 <br /><br />
 
-3. The [**official Redux documentation**](http://rackt.org/redux/index.html) is excellent. If nothing else, you should check out the [Basics section](http://rackt.org/redux/docs/basics/index.html), which is a good written counterpart to the 30-video series mentioned above (it creates a Todo app).  The only thing I wish it did better was provide more visual diagrams.  For that, refer to the Cartoon Intro above, or other diagrams in this ebook.
+3. The [**official Redux documentation**](http://rackt.org/redux/index.html) is excellent. If nothing else, you should check out the [Basics section](http://rackt.org/redux/docs/basics/index.html), which is a good written counterpart to the 30-video series mentioned above (it creates a Todo app).  The only thing I wish it did better was provide more visual diagrams.  For that, refer to the "Cartoon Intro" resource above, or other diagrams in this ebook.
 <br /><br />
 
 3. [**Immutable Data and React**](https://www.youtube.com/watch?v=I7IdS-PbEgI) from React.js Conf 2015.  As you'll learn in the other resources for Redux, immutability is a key component to Redux.  When we first presented Redux to our architecture team, they had questions about the **memory usage** and about **how the change-detection works**.  These are 2 key aspects of using immutable data.  
