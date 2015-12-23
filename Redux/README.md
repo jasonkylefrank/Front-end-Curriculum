@@ -6,7 +6,7 @@ I think Redux is simpler to use than Facebook's Flux implementation. It also has
 
 In a nutshell, the main things to understand about Redux is that:
 1. **It lets us avoid tightly coupling our React components**.  By using Redux, the React components don't need to know as much about each other when they can simply fire Redux "actions" and other React components can receive modified data from the Redux "store".  
-2. Peices of your Redux code will usually **fetch and receive data from the server**. 
+2. Peices of your Redux code will usually **request and receive data from the server**. 
 
 As a reference, you can think of the data flow illustrated in the following diagram (**React** would be our "View Provider").  Other resources that I will provide in the next sections will explain the details.
 
