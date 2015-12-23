@@ -17,5 +17,4 @@
     * [Learn](Redux/Learn/README.md)
         * [Getting Started](Redux/Learn/Getting-Started/README.md)
         * [Tips](Redux/Learn/Tips/README.md)
-    * [Actions](Redux/actions.md)
 
