@@ -11,3 +11,7 @@ There are two main parts of the React ecosystem to learn:
 1. **It lets us avoid tightly coupling our React components**.  As you'll see when you get to the Redux chapter, the React components don't need to know as much about each other when they can simply fire Redux "actions" and other React components can receive modified data from the Redux "store".  
 2. Peices of your Redux code will usually **fetch and receive data from the server**. 
 
+For now, you can think of the data flow in the following diagram without Actions and Store parts (**React** would be our "View Provider"):
+
+![](redux-diagram.png)
+
