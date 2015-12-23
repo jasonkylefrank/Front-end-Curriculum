@@ -21,4 +21,4 @@ For now, you can think of the data flow in the following diagram without the Act
 
 Putting React back in the mix now, the data flow looks something like this.  Don't worry if you don't understand what "Virtual DOM" and "React Diffing" mean yet.
 
-
+![](react-redux-diagram.png)
