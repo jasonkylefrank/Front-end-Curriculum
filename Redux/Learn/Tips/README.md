@@ -30,3 +30,8 @@ See the Redux docs for the full explanation about [async actions](http://rackt.o
 Redux's docs explain how to setup this connection in its "[usage with React](http://rackt.org/redux/docs/basics/UsageWithReact.html)" section.
 
 ### Now, what's the problem?
+
+
+
+
+...we wrap the components we want to connect to Redux with the connect() function from react-redux. Try to only do this for a top-level component, or route handlers. While technically you can connect() any component in your app to Redux store, avoid doing this too deeply, because it will make the data flow harder to trace.
