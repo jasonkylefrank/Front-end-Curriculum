@@ -84,3 +84,9 @@ Output:
 Now that you've read about ES6 features, its time to try them out!  Babel has a very handy <a href="{{ book.linkBabelEditorBlockScopeExample }}">online transpiler</a> that you can use to learn ES6!  See your code transpiled as you type:
 
 <a href="{{ book.linkBabelEditorBlockScopeExample }}">![](_assets/babel.png)</a>
+
+## Advanced Learning Resources
+
+Ready to dive in deep into specific ES6 features?  If so, here's more resources for you:
+
+1. "[**We have a problem with promises**](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html?utm_source=javascriptweekly&utm_medium=email)" by Nolan Lawson. This covers nuances and best practices for working with ES6 promises.
