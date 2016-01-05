@@ -20,3 +20,8 @@ This way the UI can respond to the fact that a web request is in progress (perha
 
 
 See the Redux docs for the full explanation about [async actions](http://rackt.org/redux/docs/advanced/AsyncActions.html).
+
+
+## Where to put **react-redux's `connect()`** calls?
+
+[React-redux](https://github.com/rackt/react-redux) is a very small add-on library that makes it easy for React components to connect to Redux stores.  Connected React components receive new data automatically when the Redux store state changes.
