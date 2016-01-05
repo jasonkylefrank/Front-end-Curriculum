@@ -33,11 +33,11 @@ Redux's docs explain how to setup this connection in its "[usage with React](htt
 
 One of the reasons to consider using a Flux implementation (such as Redux) backing up your React components is that it decouples your components. What does that mean?  
 
-Let's consider if we were not using Redux at all - only using React's `props` to connect our components.  That would mean that if a nested component needed data, it would (usually, barring server-calls) need to receive it as `props` from a parent or grandparent component.  Furthermore, what the nested component was nested deeply?
+**Let's consider if we were not using Redux at all** - only using React's `props` to connect our components.  That would mean that if a nested component needed data, it would (usually, barring server-calls) need to receive it as `props` from a parent or grandparent component.  Furthermore, what if the nested component was nested deeply?
 
 ![](_assets/What-if-no-flux1.png)
 
-
+To supply the deeply nested component with the `prop` that it needs, the top component would have to pass a `prop` to its *direct child* component.  Then, that child would have to pass it to its direct child, which would in turn have to pass it to its direct child... until it would finally reach the lower component that needed it.
 
 
 
