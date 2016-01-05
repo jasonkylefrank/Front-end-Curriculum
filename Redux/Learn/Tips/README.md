@@ -3,7 +3,7 @@
 In this chapter, I provide some commentary and additional resources for specific topics.  So far I address the following topics here:
 
 * Asynchronous Actions (e.g., web requests)
-* Where to put **react-redux's `connect()`** calls?
+* [Where to put **react-redux's `connect()`** calls?](#where-to-put-reactreduxs-connect-calls)
 
 ## Actions
 Actions are a core concept of Redux.  Generally something in the UI will trigger an action.  "Reducers" will determine what to do to the app's state based on the action.  Per React's normal rendering paradigm, the UI will re-render when the state changes.
