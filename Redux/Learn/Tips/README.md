@@ -52,3 +52,5 @@ In the Redux "basics" tutorial, under [usage with React](http://rackt.org/redux/
 ...we wrap the components we want to connect to Redux with the connect() function from react-redux. <strong>Try to only do this for a top-level component, or route handlers</strong>. While technically you can connect() any component in your app to Redux store, avoid doing this too deeply, because it will make the data flow harder to trace.
 </blockquote>
 
+#### Do you spot the problem?
+Now consider the 2 issues I outlined above.  What if only your top-level component is connected to the store and your components are deeply nested, like the above screenshot shows?  Bingo.  Then you're right back to having to pass that data down as props from one component to the next, all the way down your component tree.
