@@ -31,7 +31,15 @@ Redux's docs explain how to setup this connection in its "[usage with React](htt
 
 ### Now, what's the problem?
 
-One of the reasons to consider using a Flux implementation (such as Redux) backing up your React components is that it decouples your components. 
+One of the reasons to consider using a Flux implementation (such as Redux) backing up your React components is that it decouples your components. What does that mean?  
+
+Let's consider if we were not using Redux at all - only using React's `props` to connect our components.  That would mean that if a nested component needed data, it would (usually, barring server-calls) need to receive it as `props` from a parent or grandparent component.  Furthermore, what the nested component was nested deeply?
+
+![](_assets/What-if-no-flux1.png)
+
+
+
+
 
 <blockquote>
 ...we wrap the components we want to connect to Redux with the connect() function from react-redux. Try to only do this for a top-level component, or route handlers. While technically you can connect() any component in your app to Redux store, avoid doing this too deeply, because it will make the data flow harder to trace.
