@@ -24,4 +24,9 @@ See the Redux docs for the full explanation about [async actions](http://rackt.o
 
 ## Where to put **react-redux's `connect()`** calls?
 
+### First, what is **react-redux**?
 [React-redux](https://github.com/rackt/react-redux) is a very small add-on library that makes it easy for React components to connect to Redux stores.  Connected React components receive new data automatically when the Redux store state changes.
+
+Redux's docs explain how to setup this connection in its "[usage with React](http://rackt.org/redux/docs/basics/UsageWithReact.html)" section.
+
+### Now, what's the problem?
