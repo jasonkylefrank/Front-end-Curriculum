@@ -57,7 +57,7 @@ Now consider the 2 issues I outlined above.  What if only your top-level compone
 
 ### So how do we solve this?
 
-The answer is easy:  you can `connect()` your lower-level components to the Redux store, just like you can higher-level components.  In fact, Dan Abramov, the creator of Redux [says elsewhere](https://github.com/rackt/react-redux/issues/75#issuecomment-135436563) that this is perfectly acceptable. Dan goes by the name 'gaearon' on GitHub, where he replied to some questions about this:
+The answer is easy:  you can `connect()` your lower-level components to the Redux store, just like you can higher-level components.  In fact, Dan Abramov, the creator of Redux [says elsewhere](https://github.com/rackt/react-redux/issues/75#issuecomment-135436563) that this is perfectly acceptable. Dan goes by the name "gaearon" on GitHub, where he replied to some questions about this:
 
 ![](_assets/Redux-multiple-connect.png)
 
