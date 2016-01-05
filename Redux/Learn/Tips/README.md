@@ -44,9 +44,11 @@ One of the reasons to consider using a Flux implementation (such as Redux) backi
 
 To supply the deeply nested component with the `prop` that it needs, the top component would have to pass a `prop` to its *direct child* component.  Then, that child would have to pass it to its direct child, which would in turn have to pass it to its direct child... until it would finally reach the lower component that needed it.  This is what it means for the components to be tightly coupled.  The can incur maintenance and portability problems.
 
-##### Issue #2: What the Redux docs say in the 'Basics' tutorial
+##### Issue #2: What the Redux docs say in the 'Basics' tutorial.
 
+In the Redux "basics" tutorial, under [usage with React](http://rackt.org/redux/docs/basics/UsageWithReact.html), it currently says (I added boldfacing for emphasis on a key sentence to discuss):
 
 <blockquote>
-...we wrap the components we want to connect to Redux with the connect() function from react-redux. Try to only do this for a top-level component, or route handlers. While technically you can connect() any component in your app to Redux store, avoid doing this too deeply, because it will make the data flow harder to trace.
+...we wrap the components we want to connect to Redux with the connect() function from react-redux. <strong>Try to only do this for a top-level component, or route handlers</strong>. While technically you can connect() any component in your app to Redux store, avoid doing this too deeply, because it will make the data flow harder to trace.
 </blockquote>
+
