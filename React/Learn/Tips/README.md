@@ -18,7 +18,7 @@ One tricky case that I've come across is where it does make sense for a Componen
 
 You may have seen in the React docs the tip which declares that "[Props in getInitialState is an Anti-Pattern](http://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html)".  The gist is that, "Using props, passed down from parent, to generate state in getInitialState often leads to duplication of "source of truth", i.e. where the real data is".  However, they go on to say that "it's not an anti-pattern if you make it clear that *synchronization*'s not the goal here:".
 
-```
+```js
 var Counter = React.createClass({
   getInitialState: function() {
     // naming it initialX clearly indicates that the only purpose
