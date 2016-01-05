@@ -1,5 +1,7 @@
 # Redux tips
 
+In this chapter, I provide some 
+
 ## Actions
 Actions are a core concept of Redux.  Generally something in the UI will trigger an action.  "Reducers" will determine what to do to the app's state based on the action.  Per React's normal rendering paradigm, the UI will re-render when the state changes.
 
