@@ -3,6 +3,7 @@
 In this chapter, I provide some commentary and additional resources for specific topics.  So far I address the following topics here:
 
 * [Asynchronous Actions (e.g., web requests)](#actions)
+* [Thunk action guidance](#thunk-action-guidance)
 * [Where to put **react-redux's `connect()`** calls?](#where-to-put-reactreduxs-connect-calls)
 
 ## Actions
@@ -26,6 +27,18 @@ This way the UI can respond to the fact that a web request is in progress (perha
 
 See the Redux docs for the full explanation about [async actions](http://rackt.org/redux/docs/advanced/AsyncActions.html).
 
+
+### Thunk action guidance
+If you read the Redux docs that talk about asynchronouse actions, you would have run into the description of the Thunk middleware.  It is what allows us to dispatch multiple actions from a single action creator.  
+
+As the documentation explains, the Thunk middleware knows that it needs to intercept this special action type because it is a *function*, rather than a plain object.  Furthermore, when Thunk intercepts this function, it calls it, passing the `dispatcher` as the first argument, and optionally the `getState` method as the second argument to your function.
+
+You might be wondering, why did Redux provide the ability to read from the global state in this special action creator?  As Dan Abramov explains in this [detailed Stack Overflow post](http://stackoverflow.com/a/35415559/718325), this allows you to, for example, check to see if an API call is really needed by checking to see if cached data is already stored.  So the point seems to be being able to prevent expensive side effects (such as calling an API).
+
+In the Stack Overflow post linked above, he goes on to caution against abusing this access to `getState` from your action creator, saying, 
+<blockquote>
+"Don’t abuse this pattern. It is good for bailing out of API calls when there is cached data available, but it is not a very good foundation to build your business logic upon. If you use getState() only to conditionally dispatch different actions, consider putting the business logic into the reducers instead."
+</blockquote>
 
 ## Where to put **react-redux's `connect()`** calls?
 
@@ -65,6 +78,8 @@ Now consider the 2 issues I outlined above.  What if only your top-level compone
 The answer is easy:  you can `connect()` your lower-level components to the Redux store, just like you can higher-level components.  In fact, Dan Abramov, the creator of Redux [says elsewhere](https://github.com/rackt/react-redux/issues/75#issuecomment-135436563) that this is perfectly acceptable. Dan goes by the name "gaearon" on GitHub, where he replied to some questions about this:
 
 ![](_assets/Redux-multiple-connect.png)
+
+
 
 
 
