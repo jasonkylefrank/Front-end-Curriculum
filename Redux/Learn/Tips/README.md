@@ -29,7 +29,7 @@ See the Redux docs for the full explanation about [async actions](http://rackt.o
 
 
 ### Thunk action guidance
-If you read the Redux docs that talk about asynchronouse actions, you would have run into the description of the Thunk middleware.  It is what allows us to dispatch multiple actions from a single action creator.  
+If you read the Redux docs that talk about asynchronouse actions, you would have run into the description of the Thunk middleware.  It is what allows us to *dispatch*  other actions from an action creator.  
 
 As the documentation explains, the Thunk middleware knows that it needs to intercept this special action type because it is a *function*, rather than a plain object.  Furthermore, when Thunk intercepts this function, it calls it, passing the `dispatcher` as the first argument, and optionally the `getState` method as the second argument to your function.
 
