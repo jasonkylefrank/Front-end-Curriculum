@@ -2,7 +2,7 @@
 
 In this chapter, I provide some commentary and additional resources for specific topics.  So far I address the following topics here:
 
-* [Asynchronous Actions (e.g., web requests)](#actions)
+* [Asynchronous actions (e.g., web requests)](#actions)
 * [Thunk action guidance](#thunk-action-guidance)
 * [Where to put **react-redux's `connect()`** calls?](#where-to-put-reactreduxs-connect-calls)
 
